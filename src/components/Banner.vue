@@ -1,6 +1,6 @@
 <script setup>
 
-import BiggestHead from "./Items/BiggestHead.vue";
+import BiggestHead from "./Items/Text/BiggestHead.vue";
 
 
 </script>

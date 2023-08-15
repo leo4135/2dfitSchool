@@ -18,6 +18,6 @@ const lolkek = ref("lolkekaas");
 <style scoped>
 .main--container {
   width: 100vw;
-  min-height: 100vh;
+
 }
 </style>

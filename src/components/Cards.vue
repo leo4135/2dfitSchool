@@ -1,5 +1,6 @@
 <script setup>
-import BiggestHead from "./Items/BiggestHead.vue";
+import BiggestHead from "./Items/Text/BiggestHead.vue";
+import MiddleHead from "./Items/Text/MiddleHead.vue";
 </script>
 
 <template>
@@ -7,6 +8,7 @@ import BiggestHead from "./Items/BiggestHead.vue";
 <section data-role="cards">
   <div class="wrapper">
     <BiggestHead text='Присоединяйся к нам' />
+    <MiddleHead text="Школа на базе успешно развивающегося клуба 2D-Fit" />
   </div>
 </section>
 
