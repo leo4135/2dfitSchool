@@ -1,0 +1,39 @@
+:root {
+  --main-bg-color: #1A1A1A;
+  --feedback-bg-color: #4D4D4D;
+  --buttons-bg-color: #B71B26;
+  --h-and-border: #D51522;
+  --main-color-for-text: #FFFFFF;
+}
+
+html {
+  font-family: 'Sofia Sans';
+  font-weight: normal;
+  color: var(--main-color-for-text) !important;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  color: var(--main-color-for-text) !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+span, p, h2 {
+  color: var(--main-color-for-text);
+}
+
+section, body {
+  background: #1A1A1A;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
