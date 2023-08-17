@@ -19,11 +19,10 @@ import { ref } from 'vue'
       <div class="header__nav__and__button">
         <nav class="header__nav">
           <a href="#about__club">О КЛУБЕ</a>
-          <a href="#workouts">ТРЕНИРОВКИ</a>
-          <a onclick="getSchedule()">РАСПИСАНИЕ</a>
+          <a href="#workouts">ОБУЧЕНИЕ</a>
           <a href="#team">КОМАНДА</a>
-          <a href="#results">РЕЗУЛЬТАТЫ</a>
-          <a href="#feedback">ОТЗЫВЫ</a>
+          <a href="#results">ЗАПИСАТЬСЯ</a>
+          <a href="#feedback">КОНТАКТЫ</a>
         </nav>
         <div class="container__for__main__button">
           <button class="main__button"><a href="https://lk.2d-fit.ru/login">ВОЙТИ</a></button>
@@ -36,11 +35,10 @@ import { ref } from 'vue'
         </label>
         <ul class="menu">
           <li><a href="#about__club">О КЛУБЕ</a></li>
-          <li><a href="#workouts">ТРЕНИРОВКИ</a></li>
-          <li><a id="scheduleOnclicker" onclick="getSchedule()">РАСПИСАНИЕ</a></li>
+          <li><a href="#workouts">ОБУЧЕНИЕ</a></li>
           <li><a href="#team">КОМАНДА</a></li>
-          <li><a href="#results">РЕЗУЛЬТАТЫ</a></li>
-          <li><a href="#feedback">ОТЗЫВЫ</a></li>
+          <li><a href="#results">ЗАПИСАТЬСЯ</a></li>
+          <li><a href="#feedback">КОНТАКТЫ</a></li>
           <li>
             <div class="container__for__main__button">
               <button class="main__button" style="padding: 0px 15px;"><a href="https://lk.2d-fit.ru/login">ВОЙТИ</a>

@@ -2,8 +2,30 @@
   --main-bg-color: #1A1A1A;
   --feedback-bg-color: #4D4D4D;
   --buttons-bg-color: #B71B26;
-  --h-and-border: #D51522;
+  --h-and-border: #C1A07D;
   --main-color-for-text: #FFFFFF;
+}
+
+
+@font-face {
+  font-family: 'Sofia Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/SofiaSansCondensed-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Sofia Sans';
+  font-style: italic;
+  font-weight: bold;
+  src: url('./fonts/SofiaSansCondensed-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Sofia Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./fonts/SofiaSansCondensed-Light.ttf');
 }
 
 html {

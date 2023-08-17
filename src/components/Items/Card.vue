@@ -3,9 +3,7 @@
 import MiddleHead from "./Text/MiddleHead.vue";
 
 defineProps({
-  card: Object,
-  description: String,
-  leftBTN: Boolean
+  card: Object
 })
 
 
@@ -13,9 +11,9 @@ defineProps({
 
 <template>
   <div class="card">
-    <middle-head :text="name"/>
-    <p>{{ description }}</p>
-    <button v-if="leftBTN">Подробнее</button><button>Записаться</button>
+    <middle-head :text="card.name"/>
+    <p>{{ card.description }}</p>
+    <button v-if="card.leftBTN">Подробнее</button><button>Записаться</button>
   </div>
 </template>
 

@@ -26,7 +26,7 @@ export default {
   <swiper
       :modules="modules"
       :slides-per-view="1"
-      :space-between="50"
+      :space-between="0"
       navigation
       :pagination="{ clickable: true }"
       :scrollbar="{ draggable: true }"
@@ -86,7 +86,7 @@ export default {
 
 <style scoped>
 .carousel__custom__size__slide1 {
-  width: 100vw;
+  width: 99vw;
   height: 60vh;
   background-image: url('/public/images/Ujb_8BclwSY.jpg');
   background-size: cover;
@@ -95,7 +95,7 @@ export default {
 }
 
 .carousel__custom__size__slide2 {
-  width: 100vw;
+  width: 99vw;
   height: 60vh;
   background-image: url('/public/images/1.2cardio.png');
   background-size: cover;
@@ -104,7 +104,7 @@ export default {
 }
 
 .carousel__custom__size__slide3 {
-  width: 100vw;
+  width: 99vw;
   height: 60vh;
   background-image: url('/public/images/5ianvntEhhw.jpg');
   background-size: cover;
