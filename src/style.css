@@ -32,6 +32,7 @@ html {
   font-family: 'Sofia Sans';
   font-weight: normal;
   color: var(--main-color-for-text) !important;
+  overflow-x: hidden;
 }
 
 
@@ -58,4 +59,33 @@ section, body {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.main--margin {
+  margin: 3% 0;
+}
+
+.main__button {
+  background: none;
+  font-family: 'Sofia Sans';
+  font-weight: 200;
+  color: var(--main-color-for-text);
+  padding: 5px 15px;
+  border: none;
+  transform: skew(10deg);
+  cursor: pointer;
+}
+
+.container__for__main__button {
+  border: var(--h-and-border) solid 1px;
+  transform: skew(-10deg);
+  background: none;
+  display: flex;
+  justify-content: center;
+  max-width: 40%;
+  cursor: pointer;
+}
+
+.color__for__banner__button:hover {
+  background: var(--h-and-border);
 }

@@ -4,7 +4,11 @@
 
 <template>
 
-  <section class="form__and__map" style="background: #fff; padding: 5% 0;" id="formSender">
+  <section v-motion
+           :initial="{ opacity: 0, y: 100 }"
+           :visible="{ opacity: 1, y: 0, scale: 1 }"
+           :enter="{ opacity: 1, y: 0, scale: 1 }"
+           :delay="600" class="form__and__map" style="background: #fff; padding: 3% 0;" id="formSender">
     <div class="wrapper" style="padding: 0 40px">
       <div class="container__for__send__message__border">
         <div class="container__for__send__message">
@@ -22,7 +26,7 @@
               <p style="color: #1A1A1A; margin-bottom: 0">или перезвоните нам по номеру +7 (812)
                 926-25-22</p>
               <div class="container__for__main__button color__for__banner__button">
-                <button class="main__button button__for__banner" type="submit">ОБРАТНЫЙ ЗВОНОК</button>
+                <button class="main__button button__for__banner" type="submit" style="color: #000000">ОБРАТНЫЙ ЗВОНОК</button>
               </div>
             </div>
           </form>

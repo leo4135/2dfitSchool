@@ -3,12 +3,16 @@
 </script>
 
 <template>
-  <footer style="background: #1F1F1F; padding: 5% 0">
+  <footer v-motion
+          :initial="{ opacity: 0, y: 100 }"
+          :visible="{ opacity: 1, y: 0, scale: 1 }"
+          :enter="{ opacity: 1, y: 0, scale: 1 }"
+          :delay="600" style="background: #1F1F1F; padding: 5% 0;">
     <div class="wrapper" style="background: #1F1F1F">
       <div class="main__container">
         <div class="logo__and__contacts">
           <div class="logo__header" style="visibility: visible">
-            <img src="./images/2d-fit-logo.svg">
+            <img src="/src/assets/2d-fit-logo-2.svg">
           </div>
           <div class="contacts">
             <p style="text-transform: uppercase; margin-bottom: 20px"> фитнес клуб 2d fit</p>

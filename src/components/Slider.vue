@@ -21,7 +21,7 @@ export default {
 </script>
 
 <template>
-  <section id="about__club">
+  <section id="about__club" class="main--margin">
 
   <swiper
       :modules="modules"

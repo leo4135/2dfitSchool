@@ -2,7 +2,15 @@ import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import { MotionPlugin } from '@vueuse/motion'
+
+const app = createApp(App)
+
+app.use(MotionPlugin)
+
+app.mount('#app')
+
+// window.scrollTo(0, 0)
 
 const mapLazy = document.querySelector('.form__and__map')
 setTimeout(() => {
@@ -23,3 +31,9 @@ setTimeout(() => {
 
     mapLazy.appendChild(map)
 }, 100)
+
+
+setTimeout(() => {
+    let preloader = document.querySelector('.preloader')
+    preloader.style = "display: none; "
+}, 3000)

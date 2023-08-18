@@ -7,9 +7,9 @@ defineProps({
 </script>
 
 <template>
-<div class="wrapper">
+
   <h2 class="banner__main__h2"> {{ text }} </h2>
-</div>
+
 </template>
 
 
